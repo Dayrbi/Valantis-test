@@ -1,0 +1,21 @@
+.product-container {
+    display: flex;
+    min-height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #dedede;
+}
+.product-container > div > span{
+    font: 400 16px Lato;
+    text-align: center;
+}
+
+.product-container-id {
+    margin-left: 30px;
+}
+.product-container-price {
+    margin-right: 30px;
+}
